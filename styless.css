@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+    animation: bgcolor infinite 20s;
+}
+h1{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5em;
+    color: #31E1F7;
+    top: 0%;
+    left: 50%;
+    text-align: centre;
+    text-transform: uppercase;
+
+}
+h2{
+    word-spacing: 0cm;
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+    color: red;
+}
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 5px;
+    width: 5%
+  }
+  p{
+    text-align: centre;
+  }
+  h3{
+    font-size: 1em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+@keyframes bgcolor{
+    30%
+{
+    background: hwb(164 61% 2%);
+}
+}
+20%
+{
+    background: #FBF2CF;
+}
+40%
+{
+    background: #FFE3E1;
+}
+60%
+{
+    background: #D2DAFF;
+}
+80%
+{
+    background: #FFF6BF;
+}
+100%
+{
+    background: #E1FFEE;
+}
